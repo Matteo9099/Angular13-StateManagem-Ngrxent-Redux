@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "author": "J.Cameroon",
+      "title": "Pirati dei caraibi",
+      "cost": 145
+    },
+    {
+      "id": 3,
+      "author": "J.Cameroon",
+      "title": "Titanic",
+      "cost": 320
+    },
+    {
+      "id": 4,
+      "author": "J.Cameroon",
+      "title": "Avatar",
+      "cost": 200
+    }
+  ]
+}
