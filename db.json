@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "books": [
     {
       "id": 2,
       "author": "J.Cameroon",
@@ -17,6 +17,15 @@
       "author": "J.Cameroon",
       "title": "Avatar",
       "cost": 200
+    }
+  ],
+  "laptop": [
+    {
+      "id": 1,
+      "produttore": "HP",
+      "modello": "C11W87JG",
+      "dimensioneSchermo": 12,
+      "modelloCPU": "i5-5378"
     }
   ]
 }

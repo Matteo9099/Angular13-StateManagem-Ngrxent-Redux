@@ -1,6 +1,6 @@
 import { createReducer, on } from "@ngrx/store";
-import { Book } from "./book";
-import { DeleteBookAPISuccess, UpdateBookAPISuccess, booksFetchAPISuccess, saveBookAPISuccess } from "./books.action";
+import { Book } from "../interfaces/book";
+import { DeleteBookAPISuccess, UpdateBookAPISuccess, booksFetchAPISuccess, saveBookAPISuccess } from "../actions/books.action";
 
 export const initialState: ReadonlyArray<Book> = [];
 

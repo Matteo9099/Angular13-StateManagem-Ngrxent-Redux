@@ -12,7 +12,7 @@ import { appReducer } from './shared/store/app.reducer';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,

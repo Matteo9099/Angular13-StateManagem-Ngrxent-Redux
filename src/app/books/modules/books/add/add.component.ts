@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Book } from '../store/book';
+import { Book } from '../../../store/books/interfaces/book';
 import { Store, select } from '@ngrx/store';
-import { invokeSaveBookAPI } from '../store/books.action';
+import { invokeSaveBookAPI } from '../../../store/books/actions/books.action';
 import { Appstate } from 'src/app/shared/store/appstate';
 import { selectAppState } from 'src/app/shared/store/app.selector';
 import { Router } from '@angular/router';

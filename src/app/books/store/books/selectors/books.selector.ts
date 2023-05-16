@@ -1,5 +1,5 @@
 import { createFeatureSelector, createSelector } from "@ngrx/store";
-import { Book } from "./book";
+import { Book } from "../interfaces/book";
 
 export const selectBooks = createFeatureSelector<Book[]>("mybooks")
 

@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Book } from '../store/book';
+import { Book } from '../../../store/books/interfaces/book';
 import { Store, select } from '@ngrx/store';
-import { selectBookById } from '../store/books.selector';
+import { selectBookById } from '../../../store/books/selectors/books.selector';
 import { ActivatedRoute, Router } from '@angular/router';
 import { switchMap } from 'rxjs';
-import { invokeUpdateBookAPI } from '../store/books.action';
+import { invokeUpdateBookAPI } from '../../../store/books/actions/books.action';
 import { selectAppState } from 'src/app/shared/store/app.selector';
 import { setAPIStatus } from 'src/app/shared/store/app.action';
 import { Appstate } from 'src/app/shared/store/appstate';
